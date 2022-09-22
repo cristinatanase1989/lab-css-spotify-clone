@@ -6,3 +6,129 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+header img{
+    display: flex;
+    height: 3rem;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+   
+ 
+ 
+ }
+ header ul.listaHeader{
+     list-style: none;
+     display: flex;
+     justify-content: space-around;
+     gap: 3rem;
+     
+ }
+ 
+ .textoHeader{
+     
+     background-image: url("../images/landing.jpg");
+     height: 400px;
+ 
+     display: flex;
+     flex-direction:column;
+     background-size:cover;
+     background-position: center;
+     background-repeat:no-repeat ;
+    
+     color: white;
+     justify-content: center;
+     align-items: center;
+ 
+ }
+ 
+ 
+
+ 
+ .listaDeCajas{
+     display: flex;
+     justify-content: space-around;
+     height: 200px;
+     padding-top: 3rem;
+     
+ }
+ section.image{
+    padding-top: 3rem;
+    text-align: center;
+ }
+ div.caja>h3{
+    color: #00B172;   
+ }
+ div.caja{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    
+    
+ }
+ div.caja>img{
+    width: 60px;
+ }
+
+ section.image h2{
+     text-align: center;
+     font-size: 2rem;
+ 
+ }
+  
+
+
+div.footerText{
+   display: flex;
+  
+     
+ }
+ 
+  div.footerText img{
+    height: 400px;  
+    
+ }
+
+ section.footer{
+    background-color: #00B172;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 110px;
+    background-position: center;
+    height: 500px;
+    color: white;
+    display: flex;
+   
+
+    
+ }
+
+
+section.footer>div.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    padding: 3rem 2rem;
+    flex-wrap: wrap;
+   
+}
+section.footer>div.flex>div.footerText{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 1rem;
+    flex-wrap: wrap;
+}
+
+section.footer>div.flex>div>img{
+    height: 200px;
+}
+
